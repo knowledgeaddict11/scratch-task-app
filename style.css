@@ -1,0 +1,23 @@
+*{
+    margin: 0 auto;
+    border: 0;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: darkslategray;
+    color: white
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 1px 1px 1px red;
+    height: 100px;
+    padding: 40px;
+}
+
+#priority{
+    text-align: center;
+}
