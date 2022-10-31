@@ -6,16 +6,19 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-color: darkslategray;
+    background-color: slategray;
     color: white
 }
 
 h1{
+    background: black url("laptopwithcoffee.jpg");
     font-size: 5rem;
     color: white;
-    text-shadow: 1px 1px 1px red;
+    text-shadow: 1px 1px 1px white;
     height: 100px;
     padding: 40px;
+    border: 5px dotted white;
+    text-align: left;
 }
 
 #priority{
