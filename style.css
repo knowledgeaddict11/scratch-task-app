@@ -4,19 +4,18 @@
 }
 
 html{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: #fff;
-    background-image: url("laptopwithcoffee.jpg");
+    background: url("laptopwithcoffee.jpg") content-box;
 }
 
 h1{
-    background: #000;
-    font-size: 5rem;
-    color: #fff;
-    text-shadow: 1px 1px 1px #708090;
-    height: 100px;
-    padding: 40px;
+    background: #eee;
+    font-size: 3rem;
+    color: #000;
+    height: 60px;
+    border-bottom: 1px solid #000;
 }
 
 .button{
@@ -24,11 +23,11 @@ h1{
 }
 
 form{
-    text-align: justify;
+    text-align: left;
 }
 
 form, .button{
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .button{
@@ -40,13 +39,12 @@ form, .button{
 }
 
 .button:hover{
-    background: #fff;
+    background: #00ff00;
     color: #000;
     transition: 400ms;
 }
 
 input{
-    padding: 10px;
     background: #eee;
 }
 
@@ -61,4 +59,6 @@ h2{
 section{
     background: #eee;
     color: #000;
+    border: 1px solid #000;
 }
+
